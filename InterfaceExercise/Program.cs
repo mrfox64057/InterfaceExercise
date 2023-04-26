@@ -113,9 +113,11 @@ namespace InterfaceExercise
             }
             else
             {
+                Console.Beep();
                 Console.WriteLine("Sorry, it looks like you have a spelling error or that car is no longer in stock please try again");
+                Console.WriteLine();
+                Console.Beep();
             }
-                   
 
         }
 
